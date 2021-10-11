@@ -4,6 +4,9 @@
         <div>
             <nav class = "navbar navbar-expand-md navbar-dark bg-dark flex-md-nowrap border-3 border-bottom border-primary" >
                 <div class = "container-fluid">
+                    <button type="button" class="navbar-toggler" data-bs-toggle = "collapse" data-bs-target = "#sidebarMenu">
+                        <span class = "navbar-toggler-icon"></span>
+                    </button>
                     <a href = "#" class="navbar-brand">SISETEMA VENTAS</a>
                     <button type="button" class="navbar-toggler" data-bs-toggle = "collapse" data-bs-target = "#MenuNav">
                         <span class = "navbar-toggler-icon"></span>
