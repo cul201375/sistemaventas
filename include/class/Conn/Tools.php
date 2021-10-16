@@ -17,7 +17,7 @@
         function desconectar($conexion){
             $close = mysqli_close($conexion);
             if($close){
-                echo 'se ha cerrado la conexion';
+                
             }else{
                 echo 'ha sucedido un error tratando de desconectarse <br>';
             }

@@ -1,7 +1,9 @@
 <?php
 ob_start();
 session_start();
-
+if (!$_SESSION['user_id']){
+    header("location: index.php");
+}
 include_once("../../include/functions.php");
 $loginClass = new loginClass();
 

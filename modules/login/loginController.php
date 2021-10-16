@@ -1,6 +1,7 @@
 <?php
 ob_start();
 session_start();
+
 include_once('../../include/functions.php');
 $usuario = $_POST['user'];
 $clave = $_POST['clave'];
@@ -26,5 +27,6 @@ else{
     </script>";
     exit(-1);
 }
+
 ob_end_flush();
 ?>
